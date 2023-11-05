@@ -1,0 +1,109 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/anonymous-pro.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  } 
+  
+  
+  .header {
+  border-bottom: 1px solid #a1a6b4;
+  background-color: white; 
+  }
+
+  .container-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  margin: 0px auto;
+  border: 0px 15px 0px;
+  } 
+
+  .social-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  gap: 8px;    
+  }
+
+  .new{ 
+  width: 800px;
+  margin: 0px auto;
+  font-size: 45px;
+  padding-bottom:15px ;
+  }
+
+ .sneakers img{
+  width: 250px;
+ }
+
+  body{
+  font-family: 'Anonymous Pro', sans-serif;
+  background-color: #F1F1F1;
+  
+    
+} 
+
+.sneakers {     
+width: 800px;
+flex-wrap: wrap;
+display: flex;
+margin: 0 auto;
+margin-bottom: 30px;
+gap: 25px; 
+} 
+
+.sneaker{
+  width: 250px;    
+  border-radius: 10px;
+  background-color: white;   
+}
+
+.sneaker-text{
+height: 30px;
+}
+
+.sneaker-card{
+padding:0px  20px 0px;
+}
+
+.footer{    
+background:#121723;
+padding: 20px; 
+}
+
+.container-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  margin: 0px auto;
+  border: 0px 15px 0px;
+
+} 
+
+.social-footer {
+list-style: none; 
+text-decoration: none;
+color: white;
+display: flex;
+
+column-gap: 5px;
+}
+.footer-text{
+padding-bottom: 10px;
+color: white;
+width: 800px;
+margin: 0 auto;
+margin-left: 800px;
+
+}
+
+.footer-line{
+border-bottom: 1px solid #E6E8EC66;
+width: 800px;
+margin: 0 auto;
+}
+
